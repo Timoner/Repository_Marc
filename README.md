@@ -16,3 +16,5 @@ index: >> marcestelrichtimoner.netlify.app
   actividad5 >> https://marcestelrichtimoner.netlify.app/actividad5/actividad5
   
   actividad6 >> https://marcestelrichtimoner.netlify.app/actividad6/actividad6
+  
+  actividad7>> https://marcestelrichtimoner.netlify.app/actividad7/actividad7

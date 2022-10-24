@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+  /*  background-color: rgb(250, 2, 2);*/
+    height: 950px;
+    
+    
+}
+.bloque1{
+   /* background-color: aqua;*/
+    margin: 1px;
+    display: flex;
+    
+   
+}
+.id2{
+   /* background-color: rgb(68, 248, 68);*/
+    margin: 5px;
+}
+
+.id3{
+   
+   /* background-color: rgb(9, 223, 223);*/
+    display: flex;
+}
+.b1{
+   /* background-color: rgb(149, 255, 92);*/
+    margin: 10px;
+    
+}
+.b2{
+   /* background-color: rgb(241, 61, 214);*/
+    margin: 10px;
+    
+    
+}
+.b3{
+   /* background-color: bisque;*/
+    margin: 10px;
+}
+

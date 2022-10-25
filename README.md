@@ -3,7 +3,7 @@ My link netlify : https://marcestelrichtimoner.netlify.app
 
 Para acceder a las paginas: 
 
-index: >> marcestelrichtimoner.netlify.app
+index: >> https://marcestelrichtimoner.netlify.app/
   
   actividad1 >> https://marcestelrichtimoner.netlify.app/actividad1/
   

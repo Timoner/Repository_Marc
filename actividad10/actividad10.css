@@ -1,0 +1,45 @@
+.b_principal{
+    background-color: rgb(162, 230, 230);
+    flex-wrap: wrap;
+    width: 1000px;
+    
+}
+nav{
+    padding: 20px;
+    
+    flex-direction: row;
+    background-color: rgb(197, 196, 196);
+}
+nav a{
+    background-color: antiquewhite;
+    padding: 14px;
+    margin: 15px;
+}
+.b_segundo{
+  /*  background-color: red;*/
+    display: flex;
+
+}
+.id1{
+    background-color: aqua;
+    
+}
+.id2{
+    background-color: yellow;
+    margin: 10px;
+    width: 200px;
+ 
+}
+.b_tercero{
+    background-color: orange;
+    width: 700px;
+
+}
+.b_cuarto{
+    background-color: rgb(185, 59, 147);
+    width: 700px;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    
+}

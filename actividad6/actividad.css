@@ -1,3 +1,5 @@
-table,td{
-border: 1px;
-}
+table,td,tr,th {
+    border: #b2b2b2 1px solid;
+    border-collapse: collapse;
+  }
+  

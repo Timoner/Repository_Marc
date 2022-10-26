@@ -1,7 +1,10 @@
+body{
+    background-color: aquamarine;
+}
 .b_principal{
-    background-color: rgb(162, 230, 230);
+    background-color: rgb(35, 108, 108);
     flex-wrap: wrap;
-    width: 1000px;
+
     
 }
 nav{
@@ -15,21 +18,23 @@ nav a{
     padding: 14px;
     margin: 15px;
 }
-.b_segundo{
-  /*  background-color: red;*/
+id_bloque1{
+    background-color: rgb(158, 100, 211);
     display: flex;
+    padding: 10px;
+    margin: 20px;
+}    
+bloque1_2{
+    margin: 20px;
+}
+id_bloque1_3{
+    background-color: rgb(244, 112, 112);
+}
 
-}
-.id1{
-    background-color: aqua;
+
     
-}
-.id2{
-    background-color: yellow;
-    margin: 10px;
-    width: 200px;
  
-}
+
 .b_tercero{
     background-color: orange;
     width: 700px;

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mesaje>
+    <remite>
+        <nombre>Marc</nombre>
+        <email>m@gmail.com</email>
+    </remite>
+    <destinatario>
+        <nombre>Pau</nombre>
+        <email>p@gmail.com</email>
+    </destinatario>
+    <asunto>Hola</asunto>
+    <texto>
+        <parrafo>Mañana comemos juntos?</parrafo>
+    </texto>
+</mesaje>

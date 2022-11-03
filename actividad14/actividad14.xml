@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arboles>
+    <arbol name="Acer monspessulanum">
+        <Name_comun> Arce de Montpellier, Arce menor</Name_comun>
+        <vegetacion>Caducifolio</vegetacion>
+        <altura>De 6 a 10 metros</altura>
+        <Forma_Estructura>Copa esférica. Tronco principal recto con bifurcaciones. Ramaje colgante</Forma_Estructura>
+        <Color_primavera>Haz verde brillante, envés verde blanquecino</Color_primavera>
+        <Resistencia_Heladas>Heladas fuertes (hasta -15ºC)</Resistencia_Heladas>
+    </arbol>
+    <arbol name="Olea europea">
+            <Name_comun>Olivo</Name_comun>
+            <Vegetacion>Perenne</Vegetacion>
+            <Altura>De 8 a 15 metros</Altura>
+            <Forma_Estructura>Tronco principal irregular con bifurcaciones.</Forma_Estructura>
+    </arbol>
+    <arbol name="Ramaje tortuoso">
+            <Color_prmavera>Haz verde oscuro, envés verde plateado</Color_prmavera>
+            <Resistencia_Helada>Heladas medias (hasta -10ºC)</Resistencia_Helada>
+    </arbol>
+    <arbol name="Platanus orientalis">
+            <Name_comun>Platano</Name_comun>
+            <Vegetacion>Caducifolio</Vegetacion>
+            <Altura> De 20 a 25 metros</Altura>
+            <Forma_Estructura>Copa ovoidal. Tronco principal recto. Ramaje expandido</Forma_Estructura>
+            <Color_primavera>Haz verde medio, enves verde claro</Color_primavera>
+            <Color_otoño>Ocre</Color_otoño>
+            <Resistencia_Helada>Heladas fuertes (hasta -20ºC)</Resistencia_Helada>
+    </arbol>
+    <arbol name="ilex">
+            <Name_comun>Encina</Name_comun>
+            <Vegetacion>Perenne</Vegetacion>
+            <Altura>En torno a 25 metros</Altura>
+            <Forma_estructura>Copa esférica o elíptica irregular. Tronco principal recto. Ramaje tortuoso</Forma_estructura>
+            <Color_primavera>Plateado en hojas jóvenes. En hojas antiguas, haz verde oscuro, envés plateado</Color_primavera>
+            <Resistencia_Helada>Heladas fuertes (hasta -15ºC)</Resistencia_Helada>
+    </arbol>
+</arboles>

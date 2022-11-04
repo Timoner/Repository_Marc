@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="nº 999">
+    <factura>   
+        <empresa>Equipos Digitales S.L.</empresa>
+        <direccion>Av. Valladolid, Madrid 28015</direccion>
+        <id_CIF>Q-9876543</id_CIF>
+        <telefono>91 777 66 88</telefono>
+        <fax>91 777 66 99</fax>
+        <fecha>12-01-2005</fecha>
+        <pedido>nº 731</pedido>
+        <forma_pago>Efectivo</forma_pago>
+    </factura>
+    <datos_cliente>
+        <n_cliente>879</n_cliente>
+        <nombre>Dario Bueno Gutiérrez</nombre>
+        <direccion>Av. Oporto nº7 4ºd</direccion>
+        <poblacion>Madrid</poblacion>
+        <codigo_postal>28043</codigo_postal>
+        <provincia>Madrid</provincia>
+    </datos_cliente>
+    <datos_factura>
+        <datos cod="MII93000F/8">
+            <Base_imponible>
+                <REF>MII93000F/8</REF>
+                <descripcion>Micro pentium IV 3000MHZ FB800</descripcion>
+            </Base_imponible>
+            <IVA>
+                <cant>1</cant>
+                <precio>230 eur.</precio>
+            </IVA>
+            <CUOTA_IVA>
+                <iva>16,0</iva>
+                <importe>266,80 eur.</importe>
+            </CUOTA_IVA>
+        </datos>
+        <datos cod="MB8QDIP4">
+            <Base_imponible>
+                <REF>MB8QDIP4</REF>
+                <descripcion>Placa base QDI P4</descripcion>
+            </Base_imponible>
+            <IVA>
+                <cant>1</cant>
+                <precio>180 eur.</precio>
+            </IVA>
+            <CUOTA_IVA>
+                <iva>16,0</iva>
+                <importe>208,80 eur.</importe>
+            </CUOTA_IVA>
+        </datos>
+        <datos cod="MEDD512M32">
+            <Base_imponible>
+                <REF>MEDD512M32</REF>
+                <descripcion>DIMM DDR 512MB 3200</descripcion>
+            </Base_imponible>
+            <IVA>
+                <cant>2</cant>
+                <precio>40 eur.</precio>
+            </IVA>
+            <CUOTA_IVA>
+                <iva>16,0</iva>
+                <importe>92,80 eur.</importe>
+            </CUOTA_IVA>
+        </datos>
+        <datos cod="HD250GSA7">
+            <Base_imponible>
+                <REF>HD250GSA7</REF>
+                <descripcion>Disco duro 250GB S-ATA 7200</descripcion>
+            </Base_imponible>
+            <IVA>
+                <cant>4</cant>
+                <precio>120 eur.</precio>
+            </IVA>
+            <CUOTA_IVA>
+                <iva>16,0</iva>
+                <importe>556,80 eur.</importe>
+            </CUOTA_IVA>
+        </datos>
+    </datos_factura>
+    <TOTAL_FACTURA_PRECIO>
+        <factura name="base imponible">970,00 eur.</factura>
+        <factura name="IVA">16,0</factura>
+        <factura name="Cuota I.V.A.">155,20 eur.</factura>
+        <total_factura>1125,20 eur</total_factura>
+    </TOTAL_FACTURA_PRECIO>
+</factura>

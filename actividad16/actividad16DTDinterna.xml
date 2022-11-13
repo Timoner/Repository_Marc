@@ -10,7 +10,7 @@
 <!ELEMENT domicilios (domicilio+)>
 <!ELEMENT domicilio (nombre)>
 <!ELEMENT nombre (#PCDATA)>
-<!ATTLIST domicilio tipo (familiar |habitual) PCDATA "familiar" #REQUIRED>
+<!ATTLIST domicilio tipo (familiar | habitual) PCDATA #REQUIRED>
 ]> 
 <matricula>
     <personal>

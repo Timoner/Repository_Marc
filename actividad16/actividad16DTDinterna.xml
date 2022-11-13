@@ -8,12 +8,12 @@
 <!ELEMENT titulacion (#PCDATA)>
 <!ELEMENT curso_academico (#PCDATA)>
 <!ELEMENT domicilios (domicilio+)>
-<!ATTLIST domicilio tipo (familiar | habitual) CDATA "familiar" #REQUIRED>
 <!ELEMENT domicilio (nombre+)>
-<ELEMENT nombre (#PCDATA)>
-<ELEMENT pago (tipo_matricula)
-<ELEMENT tipo_matricula (#PCDATA)
-]> 
+<!ATTLIST domicilio tipo (familiar | habitual) "familiar">
+<!ATTLIST domicilio tipo CDATA #REQUIRED>
+<!ELEMENT pago (tipo_matricula)>
+<!ELEMENT tipo_matricula (#PCDATA)>
+]>
 <matricula>
     <personal>
         <dni>99223366M</dni>

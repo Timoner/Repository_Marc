@@ -1,0 +1,8 @@
+<!ELEMENT lista_de_notas (nota+)>
+<!ELEMENT nota (para,de,titulo,contenido)>
+<!ATTLIST nota dia CDATA #IMPLIED>
+<!ATTLIST nota hora CDATA #IMPLIED>
+<!ELEMENT para (#PCDATA)>
+<!ELEMENT de (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT contenido (#PCDATA)>

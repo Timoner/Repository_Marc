@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE matricula SYSTEM "actividad18Externa.dtd">
+<!DOCTYPE matricula SYSTEM "actividad18.dtd">
 <factura n_fac="f999"> 
     <datos_empresa> 
         <nombre>Equipos Digitales S.L.</nombre> 

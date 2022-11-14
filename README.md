@@ -39,4 +39,6 @@ actividad16>> DTD Externa https://marcestelrichtimoner.netlify.app/actividad16/a
 
 actividad16>> DTD Interna https://marcestelrichtimoner.netlify.app/actividad16/actividad16DTDinterna.xml
 
+actividad17>> DTD Externa https://marcestelrichtimoner.netlify.app/actividad17/actividad17DTDexterna.xml
 
+actividad17>> DTD Interna https://marcestelrichtimoner.netlify.app/actividad17/actividad17DTDinterna.xml

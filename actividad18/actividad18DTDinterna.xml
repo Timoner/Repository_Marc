@@ -18,10 +18,10 @@ El iva tiene que aparecer siempre, y su valor no puede contener caracteres espec
 <!ATTLIST telefono numeroTel CDATA #FIXED "917776688">
 <!ATTLIST telefono numFax CDATA #FIXED "917776699">
 <!ELEMENT datos_cliente (nombre,dir_env,poblacion,provincia)>
-<!ATTLIST datos_cliente n_cli ID #REQUIRED>
+<!ATTLIST datos_cliente n_cli CDATA ID #REQUIRED>
 <!ELEMENT dir_env (#PCDATA)>
 <!ELEMENT datos_factura (fecha,linea+,base,cuota_iva,total)>
-<!ATTLIST datos_factura n_ped ID #REQUIRED>
+<!ATTLIST datos_factura n_ped CDATA ID #REQUIRED>
 <!ATTLIST datos_factura iva NMTOKEN #REQUIRED>
 <!ATTLIST datos_factura f_pago (efectivo|tarjeta|plazos ) #REQUIRED>
 <!ATTLIST datos_factura moneda CDATA #FIXED "euro">
@@ -87,3 +87,4 @@ El iva tiene que aparecer siempre, y su valor no puede contener caracteres espec
         <total>1125,20</total> 
     </datos_factura>
     </factura>
+    

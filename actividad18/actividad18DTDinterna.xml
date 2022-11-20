@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- El número de factura (n_fac), número de cliente (n_cli) y número de pedido (n_ped) son valores únicos, por cada factura, cliente y pedido distintos, y son obligatorios. 
-Los números de teléfono (telefono) y fax (fax) de la empresa no tienen porqué aparecer en la factura, pero siempre que lo hagan deberán tener los mismos valores (teléfono 917776688, fax 917776699). 
-La forma de pago puede tomar los valores “efectivo”, “tarjeta” y “plazos”. 
-La moneda tiene que aparecer siempre, y siempre toma al valor “euro”. 
-El iva tiene que aparecer siempre, y su valor no puede contener caracteres especiales. -->
-<!DOCTYPE factura [
+
+<!DOCTYPE factura 
+[
 <!ELEMENT factura (datos_empresa,datos_cliente,datos_factura)>
 <!ATTLIST factura n_fac ID #REQUIRED>
 <!ELEMENT datos_empresa (nombre,dir,poblacion,provincia,cif,telefono?)>
@@ -35,7 +32,6 @@ El iva tiene que aparecer siempre, y su valor no puede contener caracteres espec
 <!ELEMENT base (#PCDATA)>
 <!ELEMENT cuota_iva (#PCDATA)>
 <!ELEMENT total (#PCDATA)>
-    
 ]>
 <factura n_fac="f999"> 
     <datos_empresa> 

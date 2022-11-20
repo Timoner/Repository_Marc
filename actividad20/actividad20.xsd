@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="matricula">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="personal">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="dni" type="xs:string" />
+                            <xs:element name="nombre" type="xs:string" />
+                            <xs:element name="titulacion" type="xs:string" />
+                            <xs:element name="curso_academico" type="xs:string" />
+                            <xs:element name="domicilios">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded" name="domicilio">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="nombre" type="xs:string" />
+                                                </xs:sequence>
+                                                <xs:attribute name="tipo" type="xs:string" use="required" />
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="pago">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="tipo_matricula" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

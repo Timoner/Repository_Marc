@@ -15,7 +15,7 @@ ul{
 display: flex;
 border: 1px;
 background-color: blueviolet;
-
+flex-wrap: wrap;
 }
 .caja{
     border: 1px solid red;
@@ -25,6 +25,8 @@ background-color: blueviolet;
     height: 850px;
     margin: 5px;
     flex-grow: 8;
+    flex-wrap: wrap;
+    flex-flow: wrap;
 }
 .caja2{
     border: 1px solid red;
@@ -42,7 +44,5 @@ background-color: blueviolet;
         text-align: center;
 }
 div img{
-    width: 1420px;
-    height: 500px;
- 
+    
  }

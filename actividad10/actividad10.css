@@ -1,52 +1,48 @@
 body{
     background-color: aquamarine;
 }
-.b_principal{
-    background-color: rgb(35, 108, 108);
-    flex-wrap: wrap;
-
-    
+.header{
+padding: 50px 12px;
+background-color: yellow;
+text-align: center;
+display: flex;
+flex-direction: row;
 }
-nav{
-    padding: 20px;
-    
-    flex-direction: row;
-    background-color: rgb(197, 196, 196);
+ul{
+    word-spacing: 100px;
 }
-nav a{
-    background-color: antiquewhite;
-    padding: 14px;
-    margin: 15px;
-}
-id_bloque1{
-    background-color: rgb(158, 100, 211);
-    display: flex;
-    padding: 10px;
-    margin: 20px;
-}    
-bloque1_2{
-    margin: 20px;
-}
-id_bloque1_3{
-    background-color: rgb(244, 112, 112);
+.flex-container{
+display: flex;
+border: 1px;
+background-color: blueviolet;
 
 }
-
-
-    
+.caja{
+    border: 1px solid red;
+    background-color: wheat;
+    color: black;
+    width: 120px;
+    height: 850px;
+    margin: 5px;
+    flex-grow: 8;
+}
+.caja2{
+    border: 1px solid red;
+    background-color: wheat;
+    color: black;
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+    flex-grow: 1;
+}
+.abajo{
+        float: left;
+        width: 100%;
+        background-color: rgb(146, 27, 106);
+        text-align: center;
+}
+div img{
+    width: 1420px;
+    height: 500px;
  
-
-.b_tercero{
-    background-color: orange;
-    width: 700px;
-    
-
-}
-.b_cuarto{
-    background-color: rgb(185, 59, 147);
-    width: 700px;
-    height: 100px;
-    text-align: center;
-    justify-content: center;
-    
-}
+ }

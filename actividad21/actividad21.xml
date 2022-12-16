@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="actividad11.xsl" type="text/xsl"?>   
+<Descripcion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="actividad21.xsd">
+
+        <empresa hechos="IBM Da a conocer el PC">
+            <fecha>
+                <dia>12</dia>
+                <mes>8</mes>
+                <año>1981</año>
+            </fecha>
+        </empresa>
+
+        <empresa hechos="Se funda Google">
+            <fecha>
+                <dia>4</dia>
+                <mes>9</mes>
+                <año>1998</año>
+            </fecha>
+        </empresa>
+
+        <empresa hechos="Se funda FacebookC">
+            <fecha>
+                <dia>4</dia>
+                <mes>2</mes>
+                <año>2004</año>
+            </fecha>
+        </empresa>
+    
+    </Descripcion>

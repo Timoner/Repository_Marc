@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="index.xsd"?>
+<?xml-stylesheet href="index.xsl" type="text/xsl"?>
+<libreria>  
+    <libro fecha-publicacion="2022-11-27">
+        <titulo>Todo Arde</titulo>
+        <autor>Juan Gomez Jurado</autor>
+        <editor>EDICIONES B</editor>
+        <isbn>9788466672474</isbn>
+        <precio>21.75</precio>
+    </libro>
+    <libro fecha-publicacion="2022-11-27">
+        <titulo>Los Abrazos Lentos</titulo>
+        <autor>Elisabet Benavent</autor>
+        <editor>SUMA</editor>
+        <isbn>9788491297192</isbn>
+        <precio>19.85</precio>
+    </libro>
+    <libro fecha-publicacion="2022-11-27">
+        <titulo>Esperando al Diluvio</titulo>
+        <autor>Dolores Redondo</autor>
+        <editor>DESTINO</editor>
+        <isbn>9788423362479</isbn>
+        <precio>21.75</precio>
+    </libro>
+    <libro fecha-publicacion="2022-11-27">
+        <titulo>Lejos de Luisiana</titulo>
+        <autor>Luz Gabas</autor>
+        <editor>PLANETA</editor>
+        <isbn>9788408265603</isbn>
+        <precio>22.32</precio>
+    </libro>
+</libreria>

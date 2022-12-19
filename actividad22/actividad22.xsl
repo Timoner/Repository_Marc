@@ -16,10 +16,10 @@
                 <th>Precio</th>
                 <th>Año de publicación</th>
             </tr>
-            <xsl:for-each select="oferta/cd">
+            <xsl:for-each select="ofertas/cd">
                 <tr>
                     <td>
-                        <xsl:value-of select="cd" />
+                        <xsl:value-of select="titulo" />
                     </td>
 
                     <td>
@@ -27,7 +27,7 @@
                     </td>
 
                     <td>
-                        <xsl:value-of select="país" />
+                        <xsl:value-of select="pais" />
                     </td>
 
                     <td>

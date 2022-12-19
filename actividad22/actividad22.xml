@@ -2,42 +2,48 @@
 <?xml-stylesheet href="actividad22.xsl" type="text/xsl"?>
 <ofertas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:noNamespaceSchemaLocation="actividad22.xsd">
-    <cd titulo="Stillgo the  blues">
+    <cd>
+        <titulo>Stillgo the  blues </titulo>
         <artista>Garry Moore</artista>
         <pais>UK</pais>
         <compañia>Virgin records</compañia>
         <precio>10.20</precio>
         <año>1990</año>
     </cd>
-    <cd titulo="One night only">
+    <cd>
+        <titulo>One night only </titulo>
         <artista>Bee Gees</artista>
         <pais>UK</pais>
         <compañia>Polydor</compañia>
         <precio>10.90</precio>
         <año>1998</año>
     </cd>
-    <cd titulo="When a man loves a woman">
+    <cd>
+        <titulo>When a man loves a woman </titulo>
         <artista>Percy Sledge</artista>
         <pais>USA</pais>
         <compañia>Atlantic</compañia>
         <precio>8.70</precio>
         <año>1987</año>
     </cd>
-    <cd titulo="Big Willie style">
+    <cd>
+        <titulo>Big Willie style </titulo>
         <artista>Will Smith</artista>
         <pais>USA</pais>
         <compañia>Columbia</compañia>
         <precio>9.90</precio>
         <año>1997</año>
     </cd>
-    <cd titulo="La canción de Juan Perro">
+    <cd>
+        <titulo>La canción de Juan Perro </titulo>
         <artista>Radio Futura</artista>
         <pais>España</pais>
         <compañia>Sony Music-Ariola</compañia>
         <precio>9.90</precio>
         <año>1997</año>
     </cd>
-    <cd titulo="The dock of the bay">
+    <cd>
+        <titulo>The dock of the bay</titulo>
         <artista>Otis Redding</artista>
         <pais>USA</pais>
         <compañia>Atlantic</compañia>

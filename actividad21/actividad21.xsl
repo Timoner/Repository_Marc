@@ -14,11 +14,11 @@
                         <th>mes</th>
                         <th>dia</th>
                     </tr>
-                    <xsl:for-each select="Descripcion/empresa">
+                    <xsl:for-each select="events/evento">
 
                         <tr>
                             <td>
-                                <xsl:value-of select="@hechos"/>
+                                <xsl:value-of select="@descripcion"/>
                             </td>
                             <xsl:for-each select="fecha">
 

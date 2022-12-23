@@ -8,7 +8,7 @@
                     <tr>
                         <th colspan="6">Factura n.999</th>
                     </tr>
-                    <xsl:for-each select="factura/empresa">
+                    <xsl:for-each select="factura/factura">
                         <tr>
                             <td colspan="3">
                                 <xsl:value-of select="nombre" />

@@ -11,45 +11,42 @@
                     <xsl:for-each select="factura/factura">
                         <tr>
                             <td colspan="3">
-                                <xsl:value-of select="nombre" />
+                                <xsl:value-of select="empresa" />
                                 <br />
                                 <xsl:value-of select="direccion" />
                                 <br />
-                                <xsl:value-of select="CIF" />
+                                <xsl:value-of select="id_CIF" />
                                 <br />
                                 <xsl:value-of select="telefono" />
                                 <br />
                                 <xsl:value-of select="fax" />
                                 <br />
-
-                            </td>
-                            <td colspan="3">
                                 <xsl:value-of select="fecha" />
                                 <br />
-                                <xsl:value-of select="@id" />
+                                <xsl:value-of select="pedido" />
                                 <br />
-                                <xsl:value-of select="forma_de_pago" />
+                                <xsl:value-of select="forma_pago" />
                                 <br />
+
                             </td>
-                        </tr>
 
                         <tr>
                             <th colspan="6">Datos Cliente</th>
                         </tr>
-                        <xsl:for-each select="/empresa/Datos_Cliente">
+                        <xsl:for-each select="/empresa/datos_cliente">
                             <tr>
                                 <td colspan="6">
-                                    <xsl:value-of select="numero_Cliente" />
+                                    <xsl:value-of select="n_cliente" />
                                     <br />
                                     <xsl:value-of select="nombre" />
                                     <br />
-                                    <xsl:value-of select="Dirección" />
+                                    <xsl:value-of select="direccion" />
                                     <br />
-                                    <xsl:value-of select="Población" />
+                                    <xsl:value-of select="poblacion" />
                                     <br />
                                     <xsl:value-of select="codigo_postal" />
                                     <br />
-                                    <xsl:value-of select="Provincia" />
+                                    <xsl:value-of select="provincia" />
                                     <br />
                                 </td>
                             </tr>

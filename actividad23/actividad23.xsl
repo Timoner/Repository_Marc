@@ -8,45 +8,48 @@
                     <tr>
                         <th colspan="6">Factura n.999</th>
                     </tr>
-                    <xsl:for-each select="factura/factura">
+                    <xsl:for-each select="factura/Factura">
                         <tr>
                             <td colspan="3">
-                                <xsl:value-of select="empresa" />
+                                <xsl:value-of select="nombre" />
                                 <br />
                                 <xsl:value-of select="direccion" />
                                 <br />
-                                <xsl:value-of select="id_CIF" />
+                                <xsl:value-of select="CIF" />
                                 <br />
                                 <xsl:value-of select="telefono" />
                                 <br />
                                 <xsl:value-of select="fax" />
                                 <br />
-                                <xsl:value-of select="fecha" />
-                                <br />
-                                <xsl:value-of select="pedido" />
-                                <br />
-                                <xsl:value-of select="forma_pago" />
-                                <br />
 
                             </td>
+                            <td colspan="3">
+                                <xsl:value-of select="fecha" />
+                                <br />
+                                <xsl:value-of select="@id" />
+                                <br />
+                                <xsl:value-of select="forma_de_pago" />
+                                <br />
+                            </td>
+                        </tr>
 
                         <tr>
                             <th colspan="6">Datos Cliente</th>
                         </tr>
-                        <xsl:for-each select="/empresa/datos_cliente">
+                        <xsl:for-each select="/empresa/Datos_Cliente">
                             <tr>
                                 <td colspan="6">
-                                    <xsl:value-of select="n_cliente" />
+                                    <xsl:value-of select="numero_Cliente" />
                                     <br />
                                     <xsl:value-of select="nombre" />
                                     <br />
-                                    <xsl:value-of select="direccion" />
+                                    <xsl:value-of select="Dirección" />
                                     <br />
-                                    <xsl:value-of select="poblacion" />
+                                    <xsl:value-of select="Población" />
                                     <br />
                                     <xsl:value-of select="codigo_postal" />
                                     <br />
-                                    <xsl:value-of select="provincia" />
+                                    <xsl:value-of select="Provincia" />
                                     <br />
                                 </td>
                             </tr>
@@ -118,4 +121,4 @@
             </body>
         </html>
     </xsl:template>
-</xsl:stylesheet> 
+</xsl:stylesheet>

@@ -3,7 +3,7 @@
     <xs:element name="factura">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="factura">
+                <xs:element name="Factura">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="empresa" type="xs:string" />

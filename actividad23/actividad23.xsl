@@ -11,25 +11,24 @@
                     <xsl:for-each select="factura/Factura">
                         <tr>
                             <td colspan="3">
-                                <xsl:value-of select="nombre" />
+                                <xsl:value-of select="empresa" />
                                 <br />
                                 <xsl:value-of select="direccion" />
                                 <br />
-                                <xsl:value-of select="CIF" />
+                                <xsl:value-of select="id_CIF" />
                                 <br />
                                 <xsl:value-of select="telefono" />
                                 <br />
                                 <xsl:value-of select="fax" />
                                 <br />
+                                <xsl:value-of select="fecha"/>
+                                <br/>
+                                <xsl:valuer-of select="pedido"/>
+                                <br/>
+                                <xsl:valuer-of select="forma_pago"/>
 
                             </td>
-                            <td colspan="3">
-                                <xsl:value-of select="fecha" />
-                                <br />
-                                <xsl:value-of select="@id" />
-                                <br />
-                                <xsl:value-of select="forma_de_pago" />
-                                <br />
+                          
                             </td>
                         </tr>
 

@@ -28,8 +28,7 @@
                                 <xsl:valuer-of select="forma_pago"/>
 
                             </td>
-                          
-                            </td>
+                         
                         </tr>
 
                         <tr>

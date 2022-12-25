@@ -8,8 +8,9 @@
                     <tr>Factura nº999</tr>
                     <xsl:for-each select="Factura/factura">
                     <tr>
-                        <td><xsl:value-of select="empresa" /></td>
-                        <td><xsl:value-of select="direccion" /></td>
+                        <tr>Factura nº999</tr>
+                        <th><xsl:value-of select="empresa" /></th>
+                        <th><xsl:value-of select="direccion" /></th>
                       </tr>   
                     </xsl:for-each>
                 </table>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="actividad24.xsl" type="text/xsl"?>   
+<ofertas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="actividad24.xsd">
+    <cd titulo="Stillgo the  blues">
+        <artista>Garry Moore</artista>
+        <pais>UK</pais>
+        <compañia>Virgin records</compañia>
+        <precio>10.20</precio>
+        <año>1990</año>
+    </cd>
+    <cd titulo="One night only">
+        <artista>Bee Gees</artista>
+        <pais>UK</pais>
+        <compañia>Polydor</compañia>
+        <precio>10.90</precio>
+        <año>1998</año>
+    </cd>
+    <cd titulo="When a man loves a woman">
+        <artista>Percy Sledge</artista>
+        <pais>USA</pais>
+        <compañia>Atlantic</compañia>
+        <precio>8.70</precio>
+        <año>1987</año>
+    </cd>
+    <cd titulo="Big Willie style">
+        <artista>Will Smith</artista>
+        <pais>USA</pais>
+        <compañia>Columbia</compañia>
+        <precio>9.90</precio>
+        <año>1997</año>
+    </cd>
+    <cd titulo="La canción de Juan Perro">
+        <artista>Radio Futura</artista>
+        <pais>España</pais>
+        <compañia>Sony Music-Ariola</compañia>
+        <precio>9.90</precio>
+        <año>1997</año>
+    </cd>
+    <cd titulo="The dock of the bay">
+        <artista>Otis Redding</artista>
+        <pais>USA</pais>
+        <compañia>Atlantic</compañia>
+        <precio>7.90</precio>
+        <año>1997</año>
+    </cd>
+</ofertas>

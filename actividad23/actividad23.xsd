@@ -53,7 +53,7 @@
                 <xs:element name="datos_factura">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="producto">
+                            <xs:element name="productos">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="n_ref" type="xs:string" />

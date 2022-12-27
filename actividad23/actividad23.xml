@@ -35,7 +35,7 @@
 
     <datos_factura>
 
-        <producto>
+        <productos>
 
             <n_ref>MII93000F</n_ref>
             <descripcion>Micro pentium IV 3000MHZ FB800</descripcion>
@@ -43,7 +43,7 @@
             <precio>230 euro</precio>
             <iva>16%</iva>
             <importe>266.80 euro</importe>
-        </producto>
+        </productos>
 
         <productos>
             <n_ref> MB8QDIp4 </n_ref>

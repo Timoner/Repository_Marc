@@ -19,7 +19,7 @@
                     <xsl:for-each select="ofertas/cd">
                         <tr>
                             <td>
-                                <xsl:value-of select="@titulo" />
+                                <xsl:value-of select="titulo" />
                             </td>
 
                             <td>

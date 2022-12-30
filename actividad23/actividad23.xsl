@@ -69,7 +69,7 @@
                             <xsl:for-each select="/Factura/datos_factura/productos">
                                 <tr>
                                     <td>
-                                        <xsl:value-of select="n_REF" />
+                                        <xsl:value-of select="n_ref" />
                                     </td>
                                     <td>
                                         <xsl:value-of select="descripcion" />

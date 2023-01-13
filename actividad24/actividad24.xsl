@@ -1,51 +1,55 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:output method="text" omit-xml-declaration="yes"/>
+
     <xsl:template match="/">
-        <html>
-            <head></head>
-            <body>
-                <table BORDER="1px">
-                    <tr>
-                        <th colspan="6">CDs EN OFERTA</th>
-                    </tr>
-                    <tr>
-                        <th>Título</th>
-                        <th>Artista</th>
-                        <th>País</th>
-                        <th>Compañía discográfia</th>
-                        <th>Precio</th>
-                        <th>Año de publicación</th>
-                    </tr>
-                    <xsl:for-each select="ofertas/cd">
-                        <tr>
-                            <td>
-                                <xsl:value-of select="@titulo" />
-                            </td>
-
-                            <td>
-                                <xsl:value-of select="artista" />
-                            </td>
-
-                            <td>
-                                <xsl:value-of select="pais" />
-                            </td>
-
-                            <td>
-                                <xsl:value-of select="compañia" />
-                            </td>
-
-                            <td>
-                                <xsl:value-of select="precio" />
-                            </td>
-
-                            <td>
-                                <xsl:value-of select="año" />
-                            </td>
-                            
-                        </tr>
-                    </xsl:for-each>
-                </table>
-            </body>
-        </html>
+        <xsl:text>{</xsl:text>
+        <xsl:apply-templates select="factura"/>
+        <xsl:text>}</xsl:text>
     </xsl:template>
+
+    <xsl:template match="factura">
+        <xsl:text>"factura": </xsl:text>
+        <xsl:text>{</xsl:text>
+        <xsl:apply-templates select="factura"/>
+        <xsl:text>},</xsl:text>
+        <xsl:text>"datos_cliente": </xsl:text>
+        <xsl:text>{</xsl:text>
+        <xsl:apply-templates select="datos_cliente"/>
+        <xsl:text>},</xsl:text>
+        <xsl:text>"datos_factura": </xsl:text>
+        <xsl:text>{</xsl:text>
+        <xsl:apply-templates select="datos_factura"/>
+        <xsl:text>},</xsl:text>
+        <xsl:text>"TOTAL_FACTURA_PRECIO": </xsl:text>
+        <xsl:text>{</xsl:text>
+        <xsl:apply-templates select="TOTAL_FACTURA_PRECIO"/>
+        <xsl:text>}</xsl:text>
+    </xsl:template>
+
+    <xsl:template match="factura/*">
+        <xsl:text>"</xsl:text>
+        <xsl:value-of select="name()"/>
+        <xsl:text>": "</xsl:text>
+        <xsl:value-of select="."/>
+        <xsl:text>",</xsl:text>
+    </xsl:template>
+
+    <xsl:template match="datos_cliente/*">
+        <xsl:text>"</xsl:text>
+        <xsl:value-of select="name()"/>
+        <xsl:text>": "</xsl:text>
+        <xsl:value-of select="."/>
+        <xsl:text>",</xsl:text>
+    </xsl:template>
+
+    <xsl:template match="datos_factura/*">
+        <xsl:text>"</xsl:text>
+        <xsl:value-of select="name()"/>
+        <xsl:text>": </xsl:text>
+        <xsl:text>{</xsl:text>
+        <xsl:apply-templates select="*"/>
+        <xsl:text>},</xsl:text>
+    </xsl:template>
+   
 </xsl:stylesheet>

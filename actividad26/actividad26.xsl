@@ -6,16 +6,14 @@
     xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"
     version="1.0">
     <xsl:template match="/rss/channel">
-        <html>
-            <head>
-                <title>Actividad 26</title>
-                 <link rel="stylesheet" href="actividad26.css"/>
-            </head>
-
-            <body >
-                
-            </body>
-        </html>
+            <html>
+                <head>
+                    <title> Actividad 26</title>
+                </head> 
+                <body>
+                    <h1>Prueba</h1>
+                </body>
+            </html>
     </xsl:template>
 </xsl:stylesheet>
       

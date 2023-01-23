@@ -58,3 +58,5 @@ actividad22>> https://marcestelrichtimoner.netlify.app/actividad22/actividad22.x
 actividad23>> https://marcestelrichtimoner.netlify.app/actividad23/actividad23.xml
 
 actividad24>> https://marcestelrichtimoner.netlify.app/actividad24/actividad24.xml
+
+actividad26>> https://marcestelrichtimoner.netlify.app/actividad26/actividad26.xml

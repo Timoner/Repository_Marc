@@ -9,7 +9,74 @@
         <html>
             <head>
                 <title>Actividad 26</title>
+                <link rel="stylesheet" href="actividad26.css"/>
             </head>
+            <body>
+                <h1 style="text-align:center">
+                    <xsl:value-of select="title" />  
+                </h1>
+                <header>
+                    <xsl:value-of select="description" />
+                    <br />
+
+                    <html lang="es">
+                        <xsl:value-of select="language" />
+                    </html>
+                    <br />
+                    <a href="">
+                        <xsl:value-of select="link" />
+                    </a>
+                    <br />
+                    <xsl:value-of select="lastBuildDate" />
+                </header>
+                <xsl:for-each select="item">
+                    <a href="">
+                        <xsl:value-of select="guid" />
+                    </a>
+                    <br />
+                    <xsl:value-of
+                        select="title" />
+                    <br />
+                    <xsl:value-of
+                        select="pubDate" />
+                    <br />
+                    <a href="">
+                        <xsl:value-of select="link" />
+                    </a>
+                    <br/>
+                    <xsl:value-of
+                        select="dc:creator" />
+                    <br />
+                    <xsl:value-of
+                        select="dcterms:alternative" />
+                    <br/>    
+                    <xsl:value-of
+                        select="description" />
+                    <br />
+                    <xsl:for-each select="category">
+                        <xsl:value-of
+                        select="." /> | 
+                    </xsl:for-each>
+                    <br/>    
+                    <xsl:value-of
+                        select="media:content" />
+                    <br/>    
+                    <xsl:value-of
+                        select="media:credit" />
+                    <br/>    
+                    <xsl:value-of
+                        select="media:title" />
+                    <br/>    
+                    <xsl:value-of
+                        select="media:text" />
+                    <br/>    
+                    <xsl:value-of
+                        select="media:description" />
+                    <br/>
+                
+
+                </xsl:for-each>
+            </body>
         </html>
     </xsl:template>
 </xsl:stylesheet>

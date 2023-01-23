@@ -11,7 +11,8 @@
                     <title> Actividad 26</title>
                 </head> 
                 <body>
-                    <h1>Prueba</h1>
+                    <h1 style="text-align:center">Prueba</h1>
+                    <xsl:value-of select="title" />
                 </body>
             </html>
     </xsl:template>

@@ -12,86 +12,70 @@
                 <link rel="stylesheet" href="actividad26.css"/>
             </head>
             <body>
-                <script
-                    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-                    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-                    crossorigin="anonymous"></script>
-
-                <div class="container-fluid">
-                    <header class="newspaper-header">
-                        <h1 class="newspaper-title">
-                            <a href="{rss/channel/link}">
-                                <xsl:value-of select="rss/channel/title" />
-                            </a>
-                        </h1>
-                    </header>
-
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"> Idioma: <xsl:value-of
-                                            select="rss/channel/language" />
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">
-                                        <xsl:value-of select="rss/channel/lastBuildDate" />
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-
-                    <h5 class="description">
-                        <xsl:value-of select="rss/channel/description" />
-                    </h5>
+                <h1 style="text-align:center">
+                    <xsl:value-of select="title" />  
+                </h1>
+                <header>
+                    <xsl:value-of select="description" />
                     <br />
 
-                    <div class="row">
-                        <xsl:for-each select="rss/channel/item">
-                            <div class="col-sm-6">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <img src="{media:content/@url}" class="card-img-top"
-                                            alt="{media:content/media:title}" />
-                                        <div class="MediaContento">
-                                            <xsl:for-each select="media:content">
-                                                <xsl:value-of select="media:credit" />
-                                                <br />
-                                                <xsl:value-of
-                                                    select="media:text" />
-                                            </xsl:for-each>
-                                        </div>
-                                        <h5 class="card-title">
-                                            <a href="{link}">
-                                                <xsl:value-of select="title" />
-                                            </a>
-                                        </h5>
-                                        <h6 class="card-subtitle mb-2 text-muted">
-                                            <xsl:value-of select="pubDate" />
-                                        </h6>
-                                        <p class="card-text">
-                                            <xsl:value-of select="description" />
-                                        </p>
-                                        <p class="card-text">
-                                            <strong>Autor: </strong>
-                                            <xsl:value-of select="dc:creator" />
-                                        </p>
-                                        <p class="card-text">
-                                            <strong>Categorias: </strong>
-                                            <xsl:for-each select="category">
-                                                <span class="badge badge-secondary">
-                                                    <xsl:value-of select="." />
-                                                </span>
-                                            </xsl:for-each>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </xsl:for-each>
-                    </div>
-                </div>
+                    <html lang="es">
+                        <xsl:value-of select="language" />
+                    </html>
+                    <br />
+                    <a href="">
+                        <xsl:value-of select="link" />
+                    </a>
+                    <br />
+                    <xsl:value-of select="lastBuildDate" />
+                </header>
+                <xsl:for-each select="item">
+                    <a href="">
+                        <xsl:value-of select="guid" />
+                    </a>
+                    <br />
+                    <xsl:value-of
+                        select="title" />
+                    <br />
+                    <xsl:value-of
+                        select="pubDate" />
+                    <br />
+                    <a href="">
+                        <xsl:value-of select="link" />
+                    </a>
+                    <br/>
+                    <xsl:value-of
+                        select="dc:creator" />
+                    <br />
+                    <xsl:value-of
+                        select="dcterms:alternative" />
+                    <br/>    
+                    <xsl:value-of
+                        select="description" />
+                    <br />
+                    <xsl:for-each select="category">
+                        <xsl:value-of
+                        select="." /> | 
+                    </xsl:for-each>
+                    <br/>    
+                    <xsl:value-of
+                        select="media:content" />
+                    <br/>    
+                    <xsl:value-of
+                        select="media:credit" />
+                    <br/>    
+                    <xsl:value-of
+                        select="media:title" />
+                    <br/>    
+                    <xsl:value-of
+                        select="media:text" />
+                    <br/>    
+                    <xsl:value-of
+                        select="media:description" />
+                    <br/>
+                
+
+                </xsl:for-each>
             </body>
         </html>
     </xsl:template>

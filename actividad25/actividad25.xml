@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE factura SYSTEM "actividad25.dtd">
+<?xml-stylesheet href="actividad25.xsl" type="text/xsl"?>
 <factura id="nº 999">
     <factura>   
         <empresa>Equipos Digitales S.L.</empresa>

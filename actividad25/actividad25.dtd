@@ -1,0 +1,31 @@
+<!ELEMENT factura (#PCDATA|factura|empresa|direccion|id_CIF|telefono|fax|fecha|pedido|forma_pago|datos_cliente|datos_factura|TOTAL_FACTURA_PRECIO)*>
+<!ATTLIST factura id CDATA #IMPLIED>
+<!ATTLIST factura name CDATA #IMPLIED>
+<!ELEMENT empresa (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT id_CIF (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT fax (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT pedido (#PCDATA)>
+<!ELEMENT forma_pago (#PCDATA)>
+<!ELEMENT datos_cliente (n_cliente,nombre,direccion,poblacion,codigo_postal,provincia)>
+<!ELEMENT n_cliente (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
+<!ELEMENT codigo_postal (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT datos_factura (datos+)>
+<!ELEMENT datos (Base_imponible,IVA,CUOTA_IVA)>
+<!ATTLIST datos cod CDATA #REQUIRED>
+<!ELEMENT Base_imponible (REF,descripcion)>
+<!ELEMENT REF (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT IVA (cant,precio)>
+<!ELEMENT cant (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT CUOTA_IVA (iva,importe)>
+<!ELEMENT iva (#PCDATA)>
+<!ELEMENT importe (#PCDATA)>
+<!ELEMENT TOTAL_FACTURA_PRECIO (factura+,total_factura)>
+<!ELEMENT total_factura (#PCDATA)>

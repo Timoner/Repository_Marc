@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="factura">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="factura">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="empresa" type="xs:string" />
+                            <xs:element name="direccion" type="xs:string" />
+                            <xs:element name="id_CIF" type="xs:string" />
+                            <xs:element name="telefono" type="xs:string" />
+                            <xs:element name="fax" type="xs:string" />
+                            <xs:element name="fecha" type="xs:string" />
+                            <xs:element name="pedido" type="xs:string" />
+                            <xs:element name="forma_pago" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="datos_cliente">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="n_cliente" type="xs:string" />
+                            <xs:element name="nombre" type="xs:string" />
+                            <xs:element name="direccion" type="xs:string" />
+                            <xs:element name="poblacion" type="xs:string" />
+                            <xs:element name="codigo_postal" type="xs:string" />
+                            <xs:element name="provincia" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="datos_factura">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="datos" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Base_imponible">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="REF" type="xs:string" />
+                                                    <xs:element name="descripcion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="IVA">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="cant" type="xs:string" />
+                                                    <xs:element name="precio" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="CUOTA_IVA">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="iva" type="xs:string" />
+                                                    <xs:element name="importe" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="cod" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="TOTAL_FACTURA_PRECIO">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="factura" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="name" use="required" />
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="total_factura" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" use="required" />
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

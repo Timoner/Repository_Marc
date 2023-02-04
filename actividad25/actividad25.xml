@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE factura SYSTEM "actividad25.dtd">
+
 <?xml-stylesheet href="actividad25.xsl" type="text/xsl"?>
-<factura id="nº 999">
+<factura xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="actividad25.xsd" id="nº 999">
     <factura>   
         <empresa>Equipos Digitales S.L.</empresa>
         <direccion>Av. Valladolid, Madrid 28015</direccion>

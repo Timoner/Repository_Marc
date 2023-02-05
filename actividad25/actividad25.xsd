@@ -35,30 +35,12 @@
                             <xs:element name="datos" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="Base_imponible">
-                                            <xs:complexType>
-                                                <xs:sequence>
-                                                    <xs:element name="REF" type="xs:string" />
-                                                    <xs:element name="descripcion" type="xs:string" />
-                                                </xs:sequence>
-                                            </xs:complexType>
-                                        </xs:element>
-                                        <xs:element name="IVA">
-                                            <xs:complexType>
-                                                <xs:sequence>
-                                                    <xs:element name="cant" type="xs:string" />
-                                                    <xs:element name="precio" type="xs:string" />
-                                                </xs:sequence>
-                                            </xs:complexType>
-                                        </xs:element>
-                                        <xs:element name="CUOTA_IVA">
-                                            <xs:complexType>
-                                                <xs:sequence>
-                                                    <xs:element name="iva" type="xs:string" />
-                                                    <xs:element name="importe" type="xs:string" />
-                                                </xs:sequence>
-                                            </xs:complexType>
-                                        </xs:element>
+                                        <xs:element name="REF" type="xs:string" />
+                                        <xs:element name="descripcion" type="xs:string" />
+                                        <xs:element name="cant" type="xs:string" />
+                                        <xs:element name="precio" type="xs:string" />
+                                        <xs:element name="iva" type="xs:string" />
+                                        <xs:element name="importe" type="xs:string" />
                                     </xs:sequence>
                                     <xs:attribute name="cod" use="required" />
                                 </xs:complexType>

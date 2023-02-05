@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="actividad25.xsd"?>
-<?xml-stylesheet href="actividad25.xsl" type="text/xsl"?>
 <factura xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:noNamespaceSchemaLocation="actividad25.xsd" id="nº 999">
     <factura>   
@@ -21,42 +19,64 @@
         <codigo_postal>28043</codigo_postal>
         <provincia>Madrid</provincia>
     </datos_cliente>
-
     <datos_factura>
-        <datos cod="MII93000F8">
+        <datos cod="MII93000F/8">
+            <Base_imponible>
                 <REF>MII93000F/8</REF>
                 <descripcion>Micro pentium IV 3000MHZ FB800</descripcion>
+            </Base_imponible>
+            <IVA>
                 <cant>1</cant>
                 <precio>230 eur.</precio>
+            </IVA>
+            <CUOTA_IVA>
                 <iva>16,0</iva>
                 <importe>266,80 eur.</importe>
+            </CUOTA_IVA>
         </datos>
         <datos cod="MB8QDIP4">
-                    <REF>MB8QDIP4</REF>
-                    <descripcion>Placa base QDI P4</descripcion>
-                    <cant>1</cant>
-                    <precio>180 eur.</precio>
-                    <iva>16,0</iva>
-                    <importe>208,80 eur.</importe>
+            <Base_imponible>
+                <REF>MB8QDIP4</REF>
+                <descripcion>Placa base QDI P4</descripcion>
+            </Base_imponible>
+            <IVA>
+                <cant>1</cant>
+                <precio>180 eur.</precio>
+            </IVA>
+            <CUOTA_IVA>
+                <iva>16,0</iva>
+                <importe>208,80 eur.</importe>
+            </CUOTA_IVA>
         </datos>
         <datos cod="MEDD512M32">
-                    <REF>MEDD512M32</REF>
-                    <descripcion>DIMM DDR 512MB 3200</descripcion>
-                    <cant>2</cant>
-                    <precio>40 eur.</precio>
-                    <iva>16,0</iva>
-                    <importe>92,80 eur.</importe>
+            <Base_imponible>
+                <REF>MEDD512M32</REF>
+                <descripcion>DIMM DDR 512MB 3200</descripcion>
+            </Base_imponible>
+            <IVA>
+                <cant>2</cant>
+                <precio>40 eur.</precio>
+            </IVA>
+            <CUOTA_IVA>
+                <iva>16,0</iva>
+                <importe>92,80 eur.</importe>
+            </CUOTA_IVA>
         </datos>
         <datos cod="HD250GSA7">
-                 <REF>HD250GSA7</REF>
-                 <descripcion>Disco duro 250GB S-ATA 7200</descripcion>
-                    <cant>4</cant>
-                    <precio>120 eur.</precio>
-                    <iva>16,0</iva>
-                    <importe>556,80 eur.</importe>
+            <Base_imponible>
+                <REF>HD250GSA7</REF>
+                <descripcion>Disco duro 250GB S-ATA 7200</descripcion>
+            </Base_imponible>
+            <IVA>
+                <cant>4</cant>
+                <precio>120 eur.</precio>
+            </IVA>
+            <CUOTA_IVA>
+                <iva>16,0</iva>
+                <importe>556,80 eur.</importe>
+            </CUOTA_IVA>
         </datos>
     </datos_factura>
-   
     <TOTAL_FACTURA_PRECIO>
         <factura name="base imponible">970,00 eur.</factura>
         <factura name="IVA">16,0</factura>

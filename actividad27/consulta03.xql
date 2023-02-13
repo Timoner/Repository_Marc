@@ -1,2 +1,3 @@
 for $libro in doc("books.xml")/bib/libro
-return data($libro/titulo)
+where $libro/precio=65.95
+return $libro

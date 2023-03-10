@@ -14,6 +14,7 @@
               <th style="text-align:left">Bono</th>
               <th style="text-align:left">Limite de plazas</th>
               <th style="text-align:left">Horario</th>
+              <th style="text-align:left">Empleado</th>
 
             </tr>
             <xsl:for-each select="negocio/servicio">
@@ -21,15 +22,12 @@
               <td><xsl:value-of select="tipo"/></td>
               <td><xsl:value-of select="precio"/></td>
               <td><xsl:value-of select="bono"/></td>
-               <xsl:for-each select="negocio/servicio/precio">
-                <xsl:value-of select="precio_Hora"/>
-                <xsl:value-of select="bono_5"/>
-                <xsl:value-of select="bono_10"/>
-                </xsl:for-each>
               <td><xsl:value-of select="reserva"/></td>
               <td><xsl:value-of select="horarios"/></td>
+              <td><xsl:value-of select="empleados"/></td>
             </tr>
             </xsl:for-each>
+
           </table>
       </body>
     </html>

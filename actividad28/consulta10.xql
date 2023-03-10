@@ -1,6 +1,5 @@
-for $libro in doc("llibreria.xml")/bib/libro
-order by string-join($libro/autor/apellido)
-return
-  <libro>
-    {concat($libro/titulo, " (", count($libro/autor/apellido), " autores)")}
-  </libro>
+let $libro := doc("llibreria.xml")/bookstore/book
+return <resultado>
+        <minimo>{min($libro/price)}</minimo>
+        <maximo>{min($libro/price)}</maximo>
+       </resultado>

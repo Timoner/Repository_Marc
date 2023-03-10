@@ -1,2 +1,2 @@
-for $titulo in doc("llibreria.xml")//titulo
-return <titulo>{$titulo/text()}</titulo>
+for $titulo in doc("llibreria.xml")/bookstore/book
+return  $titulo/title

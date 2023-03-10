@@ -1,5 +1,3 @@
-<publicación>{
-  for $año in distinct-values(doc("llibreriaxml")//book/year)
-  let $total := count(doc("llibreria.xml")//book[year = $año])
-  return <año total="{$total}">{$año}</año>
-}</publicación>
+for $titulo in doc("llibreria.xml")/bookstore/book
+let $ano := $titulo/year
+return <publicacion>{data($ano)}</publicacion>

@@ -7,20 +7,18 @@
       </head>
       <body>
         <h1>Consulta de productos</h1>
-        <table>
-          <tr>
-            <th>Producto</th>
-            <th>Descripción</th>
-            <th>Precio</th>
-          </tr>
-          <xsl:for-each select="productos/producto">
-            <tr>
-              <td><xsl:value-of select="nombre"/></td>
-              <td><xsl:value-of select="descripcion"/></td>
-              <td><xsl:value-of select="precio"/></td>
+        <table border="1">
+            <tr bgcolor="#9acd32">
+              <th style="text-align:left">Title</th>
+              <th style="text-align:left">Artist</th>
             </tr>
-          </xsl:for-each>
-        </table>
+            <xsl:for-each select="catalog/cd">
+            <tr>
+              <td><xsl:value-of select="title"/></td>
+              <td><xsl:value-of select="artist"/></td>
+            </tr>
+            </xsl:for-each>
+          </table>
       </body>
     </html>
   </xsl:template>

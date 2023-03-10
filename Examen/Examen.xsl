@@ -21,14 +21,14 @@
             <tr>
               <td><xsl:value-of select="tipo"/></td>
               <td><xsl:value-of select="precio"/></td>
-              <td>/<xsl:value-of select="bono"/> </td>
+              <td><xsl:value-of select="bono"/> </td>
               <td><xsl:value-of select="reserva"/></td>
               <td><xsl:value-of select="horarios"/></td>
               <td><xsl:value-of select="empleados"/> </td>
             </tr>
             </xsl:for-each>
 
-          </table>s
+          </table>
       </body>
     </html>
   </xsl:template>

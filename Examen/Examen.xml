@@ -5,10 +5,12 @@
         <tipo>Fisioterapia</tipo>
         <precio>
             <precio_Hora>35.0</precio_Hora>
+        </precio>
+        <bono>
             <bono_5>160.0</bono_5>
             <bono_10>300.0</bono_10>
-        </precio>
-        <reserva>privada</reserva>
+        </bono>
+        <reserva>previa</reserva>
         <horarios>
             <horario id="1">
                 <dia>Lunes</dia>
@@ -67,9 +69,11 @@
             <tipo>Podología</tipo>
             <precio>
                 <precio_Hora>25.0</precio_Hora>
+            </precio>
+            <bono>
                 <bono_5>100.0</bono_5>
                 <bono_10>190.0</bono_10>
-            </precio>
+            </bono>
             <reserva>previa</reserva>
             <horarios>
                 <horario id="1">
@@ -123,9 +127,11 @@
             <tipo>Psicología</tipo>
             <precio>
                 <precio_Hora>50.0</precio_Hora>
+            </precio>
+            <bono>
                 <bono_5>220.0</bono_5>
                 <bono_10>400.0</bono_10>
-            </precio>
+            </bono>
             <reserva>previa</reserva>
             <horarios>
                 <horario id="1">

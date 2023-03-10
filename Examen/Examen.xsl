@@ -9,7 +9,7 @@
         <h1>Consulta de productos</h1>
         <table border="1">
             <tr bgcolor="#9acd32">
-              <th style="text-align:left"></th>
+              <th style="text-align:left">Servicio</th>
               <th style="text-align:left">Precio</th>
               <th style="text-align:left">Limite de plazas</th>
               <th style="text-align:left">Horario</th>

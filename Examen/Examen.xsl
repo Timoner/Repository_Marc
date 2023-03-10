@@ -24,7 +24,7 @@
               <td><xsl:value-of select="bono"/></td>
               <td><xsl:value-of select="reserva"/></td>
               <td><xsl:value-of select="horarios"/></td>
-              <td><xsl:value-of select="empleados"/></td>
+              <td><xsl:value-of select="empleados"/>,</td>
             </tr>
             </xsl:for-each>
 

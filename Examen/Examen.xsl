@@ -19,6 +19,11 @@
             <tr>
               <td><xsl:value-of select="tipo"/></td>
               <td><xsl:value-of select="precio"/></td>
+               <xsl:for-each select="negocio/servicio/precio">
+                <xsl:value-of select="precio_Hora"/>
+                <xsl:value-of select="bono_5"/>
+                <xsl:value-of select="bono_10"/>
+                </xsl:for-each>
               <td><xsl:value-of select="reserva"/></td>
               <td><xsl:value-of select="horarios"/></td>
             </tr>

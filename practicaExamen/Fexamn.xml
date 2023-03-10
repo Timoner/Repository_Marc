@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="file.xsl" type="text/xsl"?>
+<?xml-model href="file.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<ClasesDeBaile>
+  <Baile id="1">
+    <Nombre>Tango</Nombre>
+    <Precio periodicidad="mensual" moneda="EUR">34,99</Precio>
+    <PlazasDisponibles>20</PlazasDisponibles>
+    <FechaInicio>2023-03-01</FechaInicio>
+    <FechaFinalizacion>2023-06-30</FechaFinalizacion>
+    <DiasSemana>Lunes, Miércoles, Viernes</DiasSemana>
+    <Profesor>Bruno</Profesor>
+    <Sala>1</Sala>
+  </Baile>
+  <Baile id="2">
+    <Nombre>Salsa</Nombre>
+    <Precio periodicidad="trimestral" moneda="EUR">12'001</Precio>
+    <PlazasDisponibles>15</PlazasDisponibles>
+    <FechaInicio>2023-03-15</FechaInicio>
+    <FechaFinalizacion>2023-06-15</FechaFinalizacion>
+    <DiasSemana>Martes, Jueves</DiasSemana>
+    <Profesor>Sofía</Profesor>
+    <Sala>2</Sala>
+  </Baile>
+  <Baile id="3">
+    <Nombre>Yoga baile</Nombre>
+    <Precio periodicidad="mensual" moneda="EUR">0.001</Precio>
+    <PlazasDisponibles>25</PlazasDisponibles>
+    <FechaInicio>2023-02-01</FechaInicio>
+    <FechaFinalizacion>2023-05-31</FechaFinalizacion>
+    <DiasSemana>Martes, Jueves</DiasSemana>
+    <Profesor>Fiona</Profesor>
+    <Sala>3</Sala>
+  </Baile>
+  <Baile id="4">
+    <Nombre>Hip baile</Nombre>
+    <Precio periodicidad="semanal" moneda="EUR">15000</Precio>
+    <PlazasDisponibles>20</PlazasDisponibles>
+    <FechaInicio>2023-02-15</FechaInicio>
+    <FechaFinalizacion>2023-06-15</FechaFinalizacion>
+    <DiasSemana>Lunes, Miércoles</DiasSemana>
+    <Profesor>Pep</Profesor>
+    <Sala>3</Sala>
+  </Baile>
+  <Baile id="5">
+    <Nombre>DAM baile</Nombre>
+    <Precio periodicidad="semanal" moneda="EUR">57</Precio>
+    <PlazasDisponibles>20</PlazasDisponibles>
+    <FechaInicio>2023-02-15</FechaInicio>
+    <FechaFinalizacion>2023-06-15</FechaFinalizacion>
+    <DiasSemana>Lunes, Miércoles</DiasSemana>
+    <Profesor>Pep</Profesor>
+    <Sala>4</Sala>
+  </Baile>
+</ClasesDeBaile>

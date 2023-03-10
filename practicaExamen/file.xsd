@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="ClasesDeBaile">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Baile" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Nombre" type="xs:string" />
+                            <xs:element name="Precio">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="periodicidad" use="required" />
+                                            <xs:attribute name="moneda" use="required" fixed="EUR" />
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="PlazasDisponibles" type="xs:string" />
+                            <xs:element name="FechaInicio" type="xs:string" />
+                            <xs:element name="FechaFinalizacion" type="xs:string" />
+                            <xs:element name="DiasSemana" type="xs:string" />
+                            <xs:element name="Profesor" type="xs:string" />
+                            <xs:element name="Sala" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:integer" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

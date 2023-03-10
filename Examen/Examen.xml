@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<negocio>
+    <servicio id="1">
+        <tipo>Fisioterapia</tipo>
+        <precio>
+            <precio_Hora>35.0</precio_Hora>
+            <bono_5>160.0</bono_5>
+            <bono_10>300.0</bono_10>
+        </precio>
+        <reserva>privada</reserva>
+        <horarios>
+            <horario id="1">
+                <dia>Lunes</dia>
+                <hora_inicio_mañana>9:00</hora_inicio_mañana>
+                <hora_fin_mañana>13:00</hora_fin_mañana>
+                <hora_inicio_tarde>15:00</hora_inicio_tarde>
+                <hora_fin_tarde>19:00</hora_fin_tarde>
+                <duracion>1 h</duracion>
+            </horario>
+            <horario id="2">
+                <dia>Martes</dia>
+                <hora_inicio_mañana>9:00</hora_inicio_mañana>
+                <hora_fin_mañana>13:00</hora_fin_mañana>
+                <hora_inicio_tarde>15:00</hora_inicio_tarde>
+                <hora_fin_tarde>19:00</hora_fin_tarde>
+                <duracion>1 h</duracion>
+            </horario>
+            <horario id="3">
+                <dia>Miercoles</dia>
+                <hora_inicio_mañana>9:00</hora_inicio_mañana>
+                <hora_fin_mañana>13:00</hora_fin_mañana>
+                <hora_inicio_tarde>15:00</hora_inicio_tarde>
+                <hora_fin_tarde>19:00</hora_fin_tarde>
+                <duracion>1 h</duracion>
+            </horario>
+            <horario id="4">
+                <dia>Jueves</dia>
+                <hora_inicio_mañana>9:00</hora_inicio_mañana>
+                <hora_fin_mañana>13:00</hora_fin_mañana>
+                <hora_inicio_tarde>15:00</hora_inicio_tarde>
+                <hora_fin_tarde>19:00</hora_fin_tarde>
+                <duracion>1 h</duracion>
+            </horario>
+            <horario id="5">
+                <dia>Viernes</dia>
+                <hora_inicio_mañana>9:00</hora_inicio_mañana>
+                <hora_fin_mañana>13:00</hora_fin_mañana>
+                <hora_inicio_tarde>15:00</hora_inicio_tarde>
+                <hora_fin_tarde>19:00</hora_fin_tarde>
+                <duracion>1 h</duracion>
+            </horario>
+            </horarios>
+            <empleados>
+                <empleado id="1">
+                    <nombre>Chus</nombre>
+                </empleado>
+                <empleado id="2">
+                    <nombre>Marga</nombre>
+                </empleado>
+                <empleado id="3">
+                    <nombre>Silvia</nombre>
+                </empleado>
+            </empleados>
+    </servicio>
+    <servicio id="2">
+            <tipo>Podología</tipo>
+            <precio>
+                <precio_Hora>25.0</precio_Hora>
+                <bono_5>100.0</bono_5>
+                <bono_10>190.0</bono_10>
+            </precio>
+            <reserva>previa</reserva>
+            <horarios>
+                <horario id="1">
+                    <dia>Lunes</dia>
+                    <hora_inicio_mañana>9:00</hora_inicio_mañana>
+                    <hora_fin_mañana>13:00</hora_fin_mañana>
+                    <hora_inicio_tarde>15:00</hora_inicio_tarde>
+                    <hora_fin_tarde>19:00</hora_fin_tarde>
+                    <duracion>1 h</duracion>
+                </horario>
+                <horario id="2">
+                    <dia>Martes</dia>
+                    <hora_inicio_mañana>9:00</hora_inicio_mañana>
+                    <hora_fin_mañana>13:00</hora_fin_mañana>
+                    <hora_inicio_tarde>15:00</hora_inicio_tarde>
+                    <hora_fin_tarde>19:00</hora_fin_tarde>
+                    <duracion>1 h</duracion>
+                </horario>
+                <horario id="3">
+                    <dia>Miercoles</dia>
+                    <hora_inicio_mañana>9:00</hora_inicio_mañana>
+                    <hora_fin_mañana>13:00</hora_fin_mañana>
+                    <hora_inicio_tarde>15:00</hora_inicio_tarde>
+                    <hora_fin_tarde>19:00</hora_fin_tarde>
+                    <duracion>1 h</duracion>
+                </horario>
+                <horario id="4">
+                    <dia>Jueves</dia>
+                    <hora_inicio_mañana>9:00</hora_inicio_mañana>
+                    <hora_fin_mañana>13:00</hora_fin_mañana>
+                    <hora_inicio_tarde>15:00</hora_inicio_tarde>
+                    <hora_fin_tarde>19:00</hora_fin_tarde>
+                    <duracion>1 h</duracion>
+                </horario>
+                <horario id="5">
+                    <dia>Viernes</dia>
+                    <hora_inicio_mañana>9:00</hora_inicio_mañana>
+                    <hora_fin_mañana>13:00</hora_fin_mañana>
+                    <hora_inicio_tarde>15:00</hora_inicio_tarde>
+                    <hora_fin_tarde>19:00</hora_fin_tarde>
+                    <duracion>1 h</duracion>
+                </horario>
+            </horarios>
+            <empleados>
+                <empleado id="1">
+                    <nombre>Joana</nombre>
+                </empleado>
+            </empleados>
+    </servicio> 
+    <servicio id="3">
+            <tipo>Psicología</tipo>
+            <precio>
+                <precio_Hora>50.0</precio_Hora>
+                <bono_5>220.0</bono_5>
+                <bono_10>400.0</bono_10>
+            </precio>
+            <reserva>previa</reserva>
+            <horarios>
+                <horario id="1">
+                    <dia>Lunes</dia>
+                    <hora_inicio_mañana>9:00</hora_inicio_mañana>
+                    <hora_fin_mañana>13:00</hora_fin_mañana>
+                    <hora_inicio_tarde>15:00</hora_inicio_tarde>
+                    <hora_fin_tarde>19:00</hora_fin_tarde>
+                    <duracion>1 h</duracion>
+                </horario>
+                <horario id="2">
+                    <dia>Martes</dia>
+                    <hora_inicio_mañana>9:00</hora_inicio_mañana>
+                    <hora_fin_mañana>13:00</hora_fin_mañana>
+                    <hora_inicio_tarde>15:00</hora_inicio_tarde>
+                    <hora_fin_tarde>19:00</hora_fin_tarde>
+                    <duracion>1 h</duracion>
+                </horario>
+                <horario id="3">
+                    <dia>Miercoles</dia>
+                    <hora_inicio_mañana>9:00</hora_inicio_mañana>
+                    <hora_fin_mañana>13:00</hora_fin_mañana>
+                    <hora_inicio_tarde>15:00</hora_inicio_tarde>
+                    <hora_fin_tarde>19:00</hora_fin_tarde>
+                    <duracion>1 h</duracion>
+                </horario>
+                <horario id="4">
+                    <dia>Jueves</dia>
+                    <hora_inicio_mañana>9:00</hora_inicio_mañana>
+                    <hora_fin_mañana>13:00</hora_fin_mañana>
+                    <hora_inicio_tarde>15:00</hora_inicio_tarde>
+                    <hora_fin_tarde>19:00</hora_fin_tarde>
+                    <duracion>1 h</duracion>
+                </horario>
+                <horario id="5">
+                    <dia>Viernes</dia>
+                    <hora_inicio_mañana>9:00</hora_inicio_mañana>
+                    <hora_fin_mañana>13:00</hora_fin_mañana>
+                    <hora_inicio_tarde>15:00</hora_inicio_tarde>
+                    <hora_fin_tarde>19:00</hora_fin_tarde>
+                    <duracion>1 h</duracion>
+                </horario>
+            </horarios>
+            <empleados>
+                <empleado id="1">
+                    <nombre>Aina</nombre>
+                </empleado>
+            </empleados>
+    </servicio> 
+    <servicio id="4">
+            <tipo>Yoga</tipo>
+            <precio>
+                <precio_mensual>25.0</precio_mensual>
+            </precio>
+            <reserva>
+                <plazas_limite>20</plazas_limite>
+            </reserva>
+            <horarios>
+                <horario id="1">
+                    <dia>Lunes</dia>
+                    <hora_inicio_mañana>11:00</hora_inicio_mañana>
+                    <hora_fin_mañana>12:30</hora_fin_mañana>
+                    <hora_inicio_tarde>17:00</hora_inicio_tarde>
+                    <hora_fin_tarde>18:30</hora_fin_tarde>
+                </horario>
+                <horario id="2">
+                    <dia>Miercoles</dia>
+                    <hora_inicio_mañana>11:00</hora_inicio_mañana>
+                    <hora_fin_mañana>12:30</hora_fin_mañana>
+                    <hora_inicio_tarde>17:00</hora_inicio_tarde>
+                    <hora_fin_tarde>18:30</hora_fin_tarde>
+                </horario>
+                <horario id="3">
+                    <dia>Viernes</dia>
+                    <hora_inicio_mañana>11:00</hora_inicio_mañana>
+                    <hora_fin_mañana>12:30</hora_fin_mañana>
+                    <hora_inicio_tarde>17:00</hora_inicio_tarde>
+                    <hora_fin_tarde>18:30</hora_fin_tarde>
+                </horario>
+            </horarios>
+            <empleados>
+                <empleado id="1">
+                    <nombre>Biel</nombre>
+                </empleado>
+                <empleado id="2">
+                    <nombre>Alex</nombre>                   
+                </empleado>
+            </empleados>
+    </servicio>
+    <servicio id="5">
+            <tipo>Pilates</tipo>
+            <precio>
+                <precio_mensual>30.0</precio_mensual>
+            </precio>
+            <reserva>
+                <plazas_limite>25</plazas_limite>
+            </reserva>
+            <horarios>
+                <horario id="1">
+                    <dia>Martes</dia>
+                    <hora_inicio_mañana>10:00</hora_inicio_mañana>
+                    <hora_fin_mañana>11:30</hora_fin_mañana>
+                    <hora_inicio_tarde>14:00</hora_inicio_tarde>
+                    <hora_fin_tarde>17:30</hora_fin_tarde>
+                </horario>
+                <horario id="2">
+                    <dia>Jueves</dia>
+                    <hora_inicio_mañana>10:00</hora_inicio_mañana>
+                    <hora_fin_mañana>11:30</hora_fin_mañana>
+                    <hora_inicio_tarde>14:00</hora_inicio_tarde>
+                    <hora_fin_tarde>17:30</hora_fin_tarde>
+                </horario>
+                <horario id="3">
+                    <dia>Viernes</dia>
+                    <hora_inicio_mañana>10:00</hora_inicio_mañana>
+                    <hora_fin_mañana>11:30</hora_fin_mañana>
+                    <hora_inicio_tarde>14:00</hora_inicio_tarde>
+                    <hora_fin_tarde>17:30</hora_fin_tarde>
+                </horario>
+            </horarios>
+        <empleados>
+            <empleado id="1">
+                <nombre>Tolo</nombre>
+            </empleado>
+        </empleados>
+    </servicio>
+    <servicio id="6">
+        <tipo>Meditación</tipo>
+        <precio>
+            <precio_mensual>35.0</precio_mensual>
+        </precio>
+        <reserva>
+            <plazas_limite>10</plazas_limite>
+        </reserva>
+        <horarios>
+            <horario id="1">
+                <dia>Lunes</dia>
+                <hora_inicio_mañana>10:00</hora_inicio_mañana>
+                <hora_fin_mañana>11:00</hora_fin_mañana>
+                <hora_inicio_tarde>19:00</hora_inicio_tarde>
+                <hora_fin_tarde>20:00</hora_fin_tarde>
+            </horario>
+            <horario id="2">
+                <dia>Martes</dia>
+                <hora_inicio_mañana>10:00</hora_inicio_mañana>
+                <hora_fin_mañana>11:00</hora_fin_mañana>
+                <hora_inicio_tarde>19:00</hora_inicio_tarde>
+                <hora_fin_tarde>20:00</hora_fin_tarde>
+            </horario>
+             <horario id="3">
+                <dia>Miercoles</dia>
+                <hora_inicio_mañana>10:00</hora_inicio_mañana>
+                <hora_fin_mañana>11:00</hora_fin_mañana>
+                <hora_inicio_tarde>19:00</hora_inicio_tarde>
+                <hora_fin_tarde>20:00</hora_fin_tarde>
+            </horario>
+            <horario id="4">
+                <dia>Jueves</dia>
+                <hora_inicio_mañana>10:00</hora_inicio_mañana>
+                <hora_fin_mañana>11:00</hora_fin_mañana>
+                <hora_inicio_tarde>19:00</hora_inicio_tarde>
+                <hora_fin_tarde>20:00</hora_fin_tarde>
+            </horario>
+            <horario id="5">
+                <dia>Viernes</dia>
+                <hora_inicio_mañana>10:00</hora_inicio_mañana>
+                <hora_fin_mañana>11:00</hora_fin_mañana>
+                <hora_inicio_tarde>19:00</hora_inicio_tarde>
+                <hora_fin_tarde>20:00</hora_fin_tarde>
+            </horario>
+        </horarios>
+        <empleados>
+            <empleado id="1">
+                <nombre>Biel</nombre>
+            </empleado>
+            <empleado id="2">
+                <nombre>Alex</nombre>
+            </empleado>
+        </empleados>
+    </servicio>
+</negocio>

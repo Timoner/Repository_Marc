@@ -7,7 +7,7 @@
             <precio_Hora>35.0</precio_Hora>
         </precio>
         <bono>
-            <bono_5>160.0</bono_5>
+            <bono_5>160.0/</bono_5>
             <bono_10>300.0</bono_10>
         </bono>
         <reserva>previa</reserva>
@@ -71,7 +71,7 @@
                 <precio_Hora>25.0</precio_Hora>
             </precio>
             <bono>
-                <bono_5>100.0</bono_5>
+                <bono_5>100.0 /</bono_5>
                 <bono_10>190.0</bono_10>
             </bono>
             <reserva>previa</reserva>
@@ -129,7 +129,7 @@
                 <precio_Hora>50.0</precio_Hora>
             </precio>
             <bono>
-                <bono_5>220.0</bono_5>
+                <bono_5>220.0/</bono_5>
                 <bono_10>400.0</bono_10>
             </bono>
             <reserva>previa</reserva>

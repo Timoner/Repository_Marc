@@ -13,7 +13,6 @@
               <th style="text-align:left">Precio</th>
               <th style="text-align:left">Limite de plazas</th>
               <th style="text-align:left">Horario</th>
-              <th style="text-align:left"></th>
             </tr>
             <xsl:for-each select="negocio/servicio">
             <tr>

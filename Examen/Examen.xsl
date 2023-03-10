@@ -10,12 +10,15 @@
         <table border="1">
             <tr bgcolor="#9acd32">
               <th style="text-align:left"></th>
-              <th style="text-align:left">Artist</th>
+              <th style="text-align:left">Precio</th>
+              <th style="text-align:left"></th>
             </tr>
             <xsl:for-each select="negocio/servicio">
             <tr>
               <td><xsl:value-of select="tipo"/></td>
               <td><xsl:value-of select="precio"/></td>
+              <td><xsl:value-of select="reserva"/></td>
+              <td><xsl:value-of select="horarios"/></td>
             </tr>
             </xsl:for-each>
           </table>

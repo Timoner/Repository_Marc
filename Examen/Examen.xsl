@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:output method="html"/>
+  
   <xsl:template match="/">
     <html>
       <head>
@@ -7,19 +9,31 @@
       </head>
       <body>
         <h1>Consulta de productos</h1>
-        <table border="1">
-            <tr bgcolor="#9acd32">
-              <th style="text-align:left">Title</th>
-              <th style="text-align:left">Artist</th>
-            </tr>
-            <xsl:for-each select="catalog/cd">
+        <p>Estimado cliente:</p>
+        <p>Gracias por utilizar nuestros servicios. Aquí tiene la información de los productos que nos ha solicitado:</p>
+        <table>
+          <thead>
             <tr>
-              <td><xsl:value-of select="title"/></td>
-              <td><xsl:value-of select="artist"/></td>
+              <th>Nombre</th>
+              <th>Precio</th>
+              <th>Descripción</th>
             </tr>
+          </thead>
+          <tbody>
+            <xsl:for-each select="//producto">
+              <tr>
+                <td><xsl:value-of select="nombre"/></td>
+                <td><xsl:value-of select="precio"/></td>
+                <td><xsl:value-of select="descripcion"/></td>
+              </tr>
             </xsl:for-each>
-          </table>
+          </tbody>
+        </table>
+        <p>No dude en contactarnos si necesita más información.</p>
+        <p>Atentamente,</p>
+        <p>El equipo de ventas</p>
       </body>
     </html>
   </xsl:template>
+  
 </xsl:stylesheet>

@@ -9,19 +9,16 @@
         <h1>Consulta de productos</h1>
         <table border="1">
             <tr bgcolor="#9acd32">
-              <th style="text-align:left">Servicio</th>
+              <th style="text-align:left"></th>
               <th style="text-align:left">Precio</th>
               <th style="text-align:left">Limite de plazas</th>
               <th style="text-align:left">Horario</th>
+
             </tr>
             <xsl:for-each select="negocio/servicio">
             <tr>
               <td><xsl:value-of select="tipo"/></td>
               <td><xsl:value-of select="precio"/></td>
-                <xsl:value-of select="precio_Hora"/>
-                <xsl:value-of select="bono_5"/>
-                <xsl:value-of select="bono_10"/>
-                </xsl:for-each>
               <td><xsl:value-of select="reserva"/></td>
               <td><xsl:value-of select="horarios"/></td>
             </tr>

@@ -1,7 +1,8 @@
-for $usuario in document("Examen.xml")/negocio
-let $nombre := $usuario/nombre/text()
-let $actividad := $usuario/actividad/text()
-for $dia in $usuario/dias/dia
-for $hora in $dia/horas/hora
-order by $nombre, $dia/@nombre
-return concat($nombre, " - ", $actividad, " - ", $dia/@nombre, " - ", $hora/@inicio, " - ", $hora/@fin)
+for $u in //usuario
+let $nombre := $u/nombre
+let $actividades :=
+  for $a in $u/actividades/actividad
+  order by $a/dia, $a/hora
+  return concat($a/nombre/text(), ' el día ', $a/dia/text(), ' a las ', $a/hora/text())
+order by $nombre
+return concat($nombre, ': ', string-join($actividades, ', '), '&#10;')

@@ -312,4 +312,51 @@
             </empleado>
         </empleados>
     </servicio>
+    <usuarios>
+        <usuario>
+          <nombre>Nombre del Usuario 1</nombre>
+          <actividades>
+            <actividad>
+              <nombre>Actividad 1</nombre>
+              <dias>
+                <dia>lunes</dia>
+                <dia>miércoles</dia>
+              </dias>
+              <horarios>
+                <horario>10:00</horario>
+                <horario>14:00</horario>
+              </horarios>
+            </actividad>
+            <actividad>
+              <nombre>Actividad 2</nombre>
+              <dias>
+                <dia>martes</dia>
+                <dia>jueves</dia>
+              </dias>
+              <horarios>
+                <horario>11:00</horario>
+                <horario>15:00</horario>
+              </horarios>
+            </actividad>
+          </actividades>
+        </usuario>
+        <usuario>
+          <nombre>Nombre del Usuario 2</nombre>
+          <actividades>
+            <actividad>
+              <nombre>Actividad 3</nombre>
+              <dias>
+                <dia>lunes</dia>
+                <dia>miércoles</dia>
+                <dia>viernes</dia>
+              </dias>
+              <horarios>
+                <horario>9:00</horario>
+                <horario>13:00</horario>
+                <horario>16:00</horario>
+              </horarios>
+            </actividad>
+          </actividades>
+        </usuario>
+      </usuarios>
 </negocio>
